@@ -46,41 +46,5 @@ To use <b><i>Github Action</b></i>:
 
 <br>
 
-#### Demo(s) 
-
-<p align="center">
- <img alt="" src="https://i.imgur.com/qtzEibg.png" width="500" height="320" />
-</p>
-
-<div align="center">
-This image was taken via a <a href="https://github.com/features/actions">GitHub Action</a>
-  </div>
-
-<br> 
-An example of the template sucessfully running on GitHub:
-<br>
-
- - [Results From Successful Python Selenium Action](https://github.com/MarketingPipeline/Python-Selenium-Action/blob/main/GitHub_Action_Results.txt)
-
-- [Successful Action Run](https://github.com/MarketingPipeline/Python-Selenium-Action/actions/runs/2412796846)
-
-
-
-  
-## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/Python-Selenium-Action)
-
-Want to improve this? Create a pull request with detailed changes / improvements! If approved you will be added to the list of contributors of this awesome project!
-
-
-
-See also the list of
-[contributors](https://github.com/MarketingPipeline/Python-Selenium-Action/graphs/contributors) who
-participate in this project.
-
-## License ![GitHub](https://img.shields.io/github/license/MarketingPipeline/Python-Selenium-Action)
-
-This project is licensed under the MIT License - see the
-[LICENSE.md](https://github.com/MarketingPipeline/Python-Selenium-Action/blob/main/LICENSE) file for
-details.
 
 
