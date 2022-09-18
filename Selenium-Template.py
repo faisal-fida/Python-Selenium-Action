@@ -6,12 +6,9 @@ from pyvirtualdisplay import Display
 display = Display(visible=0, size=(800, 800))  
 display.start()
 
-chromedriver_autoinstaller.install()  # Check if the current version of chromedriver exists
-                                      # and if it doesn't exist, download it automatically,
-                                      # then add chromedriver to path
+chromedriver_autoinstaller.install()
 
-chrome_options = webdriver.ChromeOptions()    
-# Add your options as needed    
+chrome_options = webdriver.ChromeOptions()     
 options = [
   # Define window size here
    "--window-size=1200,1200",
@@ -33,8 +30,11 @@ for option in options:
     
 driver = webdriver.Chrome(options = chrome_options)
 
-driver.get('http://github.com')
-print(driver.title)
-with open('./GitHub_Action_Results.txt', 'w') as f:
-    f.write(f"This was written with a GitHub action {driver.title}")
+driver.get('https://pk.indeed.com/')
+elems = driver.find_elements(By.XPATH, '//*[@id="mosaic-provider-jobcards"]/ul/li[1]/div/div[1]/div/div[1]/div/table[1]/tbody/tr/td')
+
+
+with open('./a.txt', 'w') as f:
+  for elem in elems:
+    f.write(f" {elem.text},'\n'")
 
