@@ -3,10 +3,6 @@
 
 
 <div align="center">
-  <img height="400" src="https://i.imgur.com/s0CDqF5.png" />
-
-   <br>
-  <small> <b><i>Show your support!</i> </b></small>
   <br>
    <a href="https://github.com/MarketingPipeline/Python-Selenium-Action">
     <img title="Star on GitHub" src="https://img.shields.io/github/stars/MarketingPipeline/Python-Selenium-Action.svg?style=social&label=Star">
